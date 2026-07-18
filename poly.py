@@ -32,9 +32,10 @@ class Traingle(Shape):
         return self.base * self.height * 0.5
 
 
+#polymorphism
 class Pizza(Circle):
     def __init__(self, topping, radius):
-        super().__init__(radius)
+        super().__init__(radius) #used within childclass to call attributes or methodes from parent class
         self.topping = topping
 
 
