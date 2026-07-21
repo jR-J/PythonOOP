@@ -1,4 +1,5 @@
-#Agrregation
+#Agrregation - "has a" relationship // Represents a relationship where one object contains references to one or more independent objects 
+#               Book can exist without Library
 class Library:
     def __init__(self, name):
         self.name = name
