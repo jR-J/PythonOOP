@@ -1,3 +1,4 @@
+#inheritance // child class inherits methodes or attributes from parent class
 class Animale:
     def __init__(self, name):
         self.name = name

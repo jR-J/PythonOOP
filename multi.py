@@ -13,7 +13,8 @@ class Prey(Animale):
     def flee(self):
         print(f"{self.name} is fleeing")
 
-
+# multiple inheritance - Inheriting from more than one parent class
+# multilevel           - inherit from a parent that inherits from another parent
 class Predator(Animale):
     def hunt(self):
         print(f"{self.name} is hunting")
@@ -27,7 +28,7 @@ class Hawk(Predator):
     pass
 
 
-class Fish(Prey, Predator):
+class Fish(Prey, Predator): #multiple inh
     pass
 
 rabbit = Rabbit("buggs")

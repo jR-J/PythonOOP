@@ -1,3 +1,5 @@
+# chained functions
+#     learning how to use resuse functions // limits rewriting code
 def convert_USD_to_UGX(usd):
     exchange_rate = 3750
     ugx = usd*exchange_rate

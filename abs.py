@@ -1,3 +1,4 @@
+#abstract classes - "meant to be subclssed"
 from abc import ABC, abstractmethod
 class Vehicle:
     @abstractmethod
