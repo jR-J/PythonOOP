@@ -6,3 +6,9 @@ def is_adult():
         print(f"{age} not an adult")
 
 is_adult()
+
+
+def adult(age):
+    return age >= 18
+
+adult(22)
