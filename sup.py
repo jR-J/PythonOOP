@@ -1,3 +1,4 @@
+#super() function
 class Shape:
     def __init__(self, color, is_filled):
         self.color = color

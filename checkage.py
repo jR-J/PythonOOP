@@ -1,3 +1,5 @@
+
+#little practice break
 def is_adult():
     age = int(input("Enter age: "))
     if age >= 18:
